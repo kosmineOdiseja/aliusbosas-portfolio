@@ -1,6 +1,7 @@
 import * as React from "react"
 import Hero from '../components/heroSection/Hero'
-// markup
+import '../assets/styles/global.css'
+
 const IndexPage = () => {
   return (
     <>

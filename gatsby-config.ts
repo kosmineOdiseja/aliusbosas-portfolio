@@ -5,7 +5,7 @@ const config: GatsbyConfig = {
     title: `aliusbosas-portfolio`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-styled-components", 
+  plugins: [
     "gatsby-plugin-image", 
     "gatsby-plugin-react-helmet", 
     "gatsby-plugin-sitemap", 
