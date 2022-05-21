@@ -1,0 +1,6 @@
+projekte tureti: 
+
+	projektas
+		ka išmokau projekte 
+			stack'as 
+			išvadas kokias padariau 

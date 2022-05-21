@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import video from '../../assets/video/travel.mp4'
+import video from '../../assets/video/video.mp4'
 
 const Hero = () => {
   return (
@@ -30,10 +30,10 @@ const Container = styled.div`
 	justify-content: center;
 	align-items: center;
 	color: #fff;
-	height: 100%;
+	height: 100vh;
 	padding: 0 1rem;
 	position: relative; 
-	margin-top: -80px;
+	/* margin-top: -80px; */
 
 	:before {
 		content: "";
@@ -56,11 +56,11 @@ const Wrapper = styled.div`
 
 const VideoBg = styled.div`
 	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
+	/* bottom: 0; */
+	/* right: 0; */
+	/* left: 0;  */
 	width: 100%;
-	height: 100%;
+	height: 70%;
 	overflow: hidden;
 	
 `
