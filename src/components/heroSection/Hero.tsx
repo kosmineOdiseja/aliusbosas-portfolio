@@ -11,6 +11,7 @@ const Hero = () => {
 				<h1 className='text-lg text-green-400 '> Sveiki, aš esu </h1>
 				<h2 className='text-5xl text-yellow-500 font-semibold '> Alius Bosas </h2>
 				<code className='text-3xl text-green-600'> Aš noriu užaugti su Jumis </code> 
+				<h3 className='text-5xl text-yellow-200 font-bold '> Dirbant front-end programuotoju! </h3>
 			</div>
 		  <StaticImage
 		  	src='../../assets/images/programmer-hero.png'
