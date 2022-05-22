@@ -8,7 +8,7 @@ import { Link } from 'gatsby'
 
 const SideBar = () => {
   return (
-	<nav className='sidebar fixed top-0 bottom-0 lg:left-0 p-2 bg-transparent flex flex-col justify-center items-start gap-5 w-10 bg-slate-50'>
+	<nav className='sidebar fixed top-0 bottom-0 lg:left-0 p-2 bg-transparent flex flex-col justify-center items-start gap-5 w-10 '>
 
 		<Link to='https://twitter.com/AliusBosas' target={'_blanck'} className=' flex flex-row justify-center items-center text-white'>
 			<AiFillTwitterSquare className='fill-white w-8 h-9 mx-6'/>
