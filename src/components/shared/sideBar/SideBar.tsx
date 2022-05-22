@@ -20,7 +20,7 @@ const SideBar = () => {
 			<AiFillFacebook className='fill-white w-8 h-9 mx-6'/>
 		</Link>
 		<Link to='https://www.linkedin.com/in/alius-bosas-6781b5189/' target={'_blanck'} className=''>
-			<AiFillLinkedin className='fill-white w-8 h-9 p mx-6'/>
+			<AiFillLinkedin className='fill-white w-8 h-9 p mx-6' />
 		</Link>
 	</nav>
   )
