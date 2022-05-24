@@ -19,13 +19,13 @@ const social = [
 	  },
 	  {
 		  name: "instagram",
-		  link: "https://www.github.com/kosimineOdiseja/",
+		  link: "https://www.github.com/kosmineOdiseja/",
 		  target: "githubWindow",
 		  icon:	<AiFillGithub className='fill-white w-8 h-9 mx-6 hover:w-10 hover:h-11 hover:fill-yellow-200'/>
 	  },
 	  {
 		  name: "linkedin",
-		  link: "https://www.linkedin.com/alius-bosas-6781b5189",
+		  link: "https://www.linkedin.com/in/alius-bosas-6781b5189/",
 		  target: "linkedinWindow",
 		  icon: <AiFillLinkedin className='fill-white w-8 h-9 p mx-6 hover:w-10 hover:h-11 hover:fill-yellow-200' />
 	  }
