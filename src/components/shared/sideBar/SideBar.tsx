@@ -12,7 +12,7 @@ const SideBar = () => {
 
   return (
 	<nav className=' '>
-		{socialLinks.map(({  name, icon, link, target  } : socialLinks ) => (
+		{socialLinks.map(({  name, icon, link, target } : socialLinks ) => (
 				<a key={ name } href={ link } target={target} className=''>
 					{icon}
 				</a>

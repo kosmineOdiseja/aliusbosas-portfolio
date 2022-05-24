@@ -11,9 +11,9 @@ interface socialLinks {
 const Footer = () => {
 
   return (
-	<nav className='flex flex-row gap-2 fill-green align-center justify-center bg-transparent w-full  '>
+	<nav className='flex flex-row gap-2 align-center justify-center bg-transparent w-full  '>
 		{socialLinks.map(({  name, icon, link, target  } : socialLinks ) => (
-				<a key={ name } href={ link } target={target} className=''>
+				<a key={ name } href={ link } target={target} >
 					{icon}
 				</a>
 			))}
