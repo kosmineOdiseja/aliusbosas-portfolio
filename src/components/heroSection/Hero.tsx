@@ -10,9 +10,9 @@ const Hero = () => {
 			<div className='flex flex-col gap-3 relative container h-screen mx-auto p-6 items-start justify-center'>
 				<code className='text-green'> Sveiki, aš esu </code>
 				<h2 className='text-light-text font-semibold text-5xl'> Alius Bosas. </h2>
-				<code className=' text-darker-text font-semibold text-5xl'> Aš noriu kurti </code> 
+				<code className=' text-darker-text font-semibold text-5xl'> Aš noriu Jums padėti augti</code> 
 				<h3 className='text-green font-normal text-3xl'> Front-end programuotojo pozicijoje! </h3>
-				<div className='text-light-text'>Mano tislas - Full-Stack developer. Šiuo metu koncentruojuosi ties Front-End technologijomis: <a href="https://reactjs.org/" className='text-green' target='ReactWindow' > React</a> biblioteka, <a href="https://www.gatsbyjs.com/" className='text-green' target='GatsbyWindow'>Gatsby</a> Framework. Vėliau prijungsiu Back-End technologijas.</div>
+				<div className='text-light-text'>Mano tislas - Full-Stack developer. Šiuo metu koncentruojuosi ties Front-End technologijomis: <a href="https://reactjs.org/" className='text-green' target='ReactWindow' > React</a> biblioteka, <a href="https://www.gatsbyjs.com/" className='text-green' target='GatsbyWindow'>Gatsby</a> karkasu. Vėliau prijungsiu Back-End technologijas.</div>
 				{/* <button className='text-light-text border-2 rounded px-5 py-2'>Daugiau</button> */}
 			</div>
 		  {/* <StaticImage
