@@ -38,7 +38,7 @@ const ParticlesComponent = () => {
           },
           modes: {
             push: {
-              quantity: 4,
+              quantity: 7,
             },
             repulse: {
               distance: 200,
@@ -48,10 +48,10 @@ const ParticlesComponent = () => {
         },
         particles: {
           color: {
-            value: "#ffffff",
+            value: "#257580",
           },
           links: {
-            color: "#ffffff",
+            color: "#656577",
             distance: 150,
             enable: true,
             opacity: 0.5,

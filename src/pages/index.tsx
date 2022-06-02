@@ -11,9 +11,9 @@ const IndexPage = () => {
     <>
     {/* <Layout /> */}
     {/* <SideBar /> */}
-    <ParticlesComponent />
      <Hero /> 
      <Footer /> 
+    <ParticlesComponent />
     </>
   )
 }
