@@ -23,8 +23,6 @@ const Seo = ( { title, description }: SeoProps ) => {
 
 const { site } = useStaticQuery(query)
 const metaDescription = description || site.siteMetadata.description
-// console.log(title, description, 'title, description')
-
 
   return (
 	<Helmet 

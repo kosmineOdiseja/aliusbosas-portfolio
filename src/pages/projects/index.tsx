@@ -1,8 +1,13 @@
 import React from 'react'
+import Seo from '../../components/Seo'
 
 const index = () => {
+
   return (
-	<div>index</div>
+    <>
+    <Seo title='Error' />
+    <div>index</div>
+</>
   )
 }
 
