@@ -2,8 +2,9 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `aliusbosas-portfolio`,
-    siteUrl: `https://aliusbosas.gatsbyjs.io/`
+    title: `Alius Bosas portfolio`,
+    siteUrl: `https://aliusbosas.gatsbyjs.io/`,
+    description: `Portfolio of Alius Bosas`,
   },
   plugins: [
     "gatsby-plugin-image", 
