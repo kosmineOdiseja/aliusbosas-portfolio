@@ -3,7 +3,7 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `aliusbosas-portfolio`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://aliusbosas.gatsbyjs.io/`
   },
   plugins: [
     "gatsby-plugin-image", 
