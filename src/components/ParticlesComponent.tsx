@@ -4,6 +4,7 @@ import Particles  from 'react-tsparticles'
 import { loadFull } from "tsparticles";
 
 const ParticlesComponent = () => {
+
 	const particlesInit = async (main: any) => {
     // console.log(main);
 
@@ -21,7 +22,7 @@ const ParticlesComponent = () => {
 	<Particles
     id='tsparticles'
     init={particlesInit}
-    loaded={particlesLoaded}
+    // loaded={particlesLoaded}
     options={{
         fpsLimit: 60,
         interactivity: {
@@ -66,7 +67,7 @@ const ParticlesComponent = () => {
             outModes: {
               default: "bounce",
             },
-            random: false,
+            random: true,
             speed: 1,
             straight: false,
           },
