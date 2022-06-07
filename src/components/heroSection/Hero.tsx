@@ -5,9 +5,10 @@ const Hero = () => {
 
   return (
 
-	  <div className='bg-nightsky ' >
-	  	<section className=' '>
-			<div className='flex flex-col gap-3 relative container h-screen mx-auto p-6 items-start justify-center'>
+	  <div className='bg-nightsky' >
+	  	<section className='m-auto w-9/12'>
+			{/* <div className='flex flex-col gap-3 relative container h-screen mx-auto p-6 items-start justify-center'> */}
+			<div className='flex flex-col gap-3 h-screen mx-auto p-6 items-start justify-center'>
 				<code className='text-green'> Sveiki, aš esu </code>
 				<h2 className='text-light-text font-semibold text-5xl'> Alius Bosas. </h2>
 				<code className=' text-darker-text font-semibold text-5xl'> Aš noriu Jums padėti augti</code> 
