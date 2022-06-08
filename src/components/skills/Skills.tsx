@@ -4,7 +4,7 @@ function Skills() {
   return (
 	<div>
 		<div className='bg-nightsky' >
-			<section className='m-auto w-9/12'>
+			<section className='m-auto w-9/12 bg-darker-text'>
 				<div className='flex flex-col gap-6 h-screen mx-auto p-6 items-center justify-center '>
 					<h2 className='text-6xl bg-green p-5 rounded-2xl text-nightsky '> Ką aš galiu naudoti projektuose? </h2>
 						<div className='flex flex-row gap-5 mx-auto p-6 items-start justify-center flex-wrap bg-light-text rounded-2xl'>
@@ -18,7 +18,7 @@ function Skills() {
 								<a href='https://nextjs.org/' target='_blank'>Next JS</a>
 							</div>
 							<div className='text-4xl text-light-text bg-green p-3 rounded-2xl'> 
-								<a href='https://nodejs.org/en/'  target='_blank'>Node JS </a>
+								<a href='https://nodejs.org/en/'  target='_blank'>Node JS</a>
 							</div>
 							<div className='text-4xl text-light-text bg-green p-3 rounded-2xl'> 
 								<a href='https://styled-components.com/'  target='_blank'>Styled Components</a>
@@ -37,6 +37,12 @@ function Skills() {
 							</div>
 							<div className='text-4xl text-light-text bg-green p-3 rounded-2xl'> 
 								<a href='https://github.com/'  target='_blank'>Github</a>
+							</div>
+							<div className='text-4xl text-light-text bg-green p-3 rounded-2xl'> 
+								<a href='https://www.typescriptlang.org/'  target='_blank'>TypeScript</a>
+							</div>
+							<div className='text-4xl text-light-text bg-green p-3 rounded-2xl'> 
+								<a href='https://sass-lang.com/'  target='_blank'>SASS</a>
 							</div>
 							{/* <div> Matrerial UI </div> */}
 						</div>
