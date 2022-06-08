@@ -2,7 +2,7 @@ import React from 'react'
 import ApieMane from '../components/about/apieMane'
 import ParticlesComponent from '../components/shared/ParticlesComponent'
 import Seo from '../components/Seo'
-import Skills from '../components/skill/Skills'
+import Skills from '../components/skills/Skills'
 
 const about = () => {
   return (

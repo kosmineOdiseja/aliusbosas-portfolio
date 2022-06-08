@@ -20,6 +20,7 @@ const ParticlesComponent = () => {
 
   return (
 	<Particles
+    className='-z-1 fixed'
     id='tsparticles'
     init={particlesInit}
     // loaded={particlesLoaded}

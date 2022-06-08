@@ -3,7 +3,7 @@ import Seo from '../components/Seo'
 import Navbar from '../components/shared/navbar/Navbar'
 import ParticlesComponent from '../components/shared/ParticlesComponent'
 import Projects from '../components/projects/Projects'
-import Skills from '../components/skill/Skills'
+import Skills from '../components/skills/Skills'
 
 const projects = () => {
 

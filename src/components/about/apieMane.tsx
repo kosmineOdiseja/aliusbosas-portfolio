@@ -2,9 +2,10 @@ import React from 'react'
 
 const apieMane = () => {
   return (
-		<div className='bg-nightsky' >
-	  	<section className='m-auto w-9/12'>
-			<div className='flex flex-col gap-3 h-5/6 mx-auto px-6 items-start justify-center '>
+		// <div className='bg-nightsky' >
+		<div className='bg-light-text m-auto relative' >
+	  	<section className='w-9/12 h-[700px] bg-nightsky m-auto '>
+			<div className='flex flex-col gap-3 mx-auto px-6 items-start justify-center '>
 				{/* <h3 className='text-light-text font-normal text-3xl'> Aš! </h3> */}
 				<h3 className='text-light-text font-normal text-3xl'> apie mane </h3>
 				<code className='text-green text-xl'> labai mėgstu kantriai ir nuosekliai siekti savo tikslų. 
