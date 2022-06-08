@@ -5,9 +5,9 @@ const projects = () => {
 
   return (
     <>
-    <Seo title='Error' />
-    <div>labas porfolio</div>
-</>
+      <Seo title='Error' />
+      <div>labas porfolio</div>
+    </>
   )
 }
 

@@ -41,17 +41,18 @@ const Navbar = () => {
 
 <>
 <div >
-
 	{ !isOpen ? (
 			// <button className='flex items-center justify-center w-12 h-12 rounded-full bg-white text-black hover:bg-gray-100 hover:text-black' onClick={handleClick}>
+			// <div className='fixed'>
 			<button onClick={() => setIsOpen(!isOpen)} className="top-10 right-10 ${isOpen ? absolute : relative}">
 			{/* // <button onClick={() => setIsOpen(!isOpen)} className="top-10 right-10 "> */}
 				<div className='w-7 h-1 m-1.5 bg-green'> </div>
 				<div className='w-6 h-1 m-1.5 bg-green'> </div>
 				<div className='w-7 h-1 m-1.5 bg-green'> </div>
 			</button>)
+			// </div>)
 			 : 
-			 (<ul className='h-full w-screen absolute x'>
+			 (<ul className='h-full w-screen absolute'>
 				<button className='text-3xl text-green top-10 right-10 absolute' onClick={()=> setIsOpen(!isOpen)}>X</button> 
 
 				<div className='flex flex-col justify-center items-center bg-nightsky h-full w-screen gap-10'>
@@ -62,17 +63,17 @@ const Navbar = () => {
 					</li> */}
 					<li >
 						<Link to='/about/' >
-							<span className='text-green text-6xl'>Apie mane</span>
+							<span className='text-green text-6xl hover:text-7xl'>Apie mane</span>
 						</Link>
 					</li>
 					<li >
 						<Link to='/projects/'  activeClassName='text-green'>
-							<span className='text-green text-6xl'>Portfolio</span>
+							<span className='text-green text-6xl hover:text-7xl'>Portfolio</span>
 						</Link>
 					</li>
 					<li >
 						<Link to='/contact/'>
-							<span className='text-green text-6xl'>Kontaktai</span>
+							<span className='text-green text-6xl hover:text-7xl'>Kontaktai</span>
 						</Link>
 					</li>
 				</div>
