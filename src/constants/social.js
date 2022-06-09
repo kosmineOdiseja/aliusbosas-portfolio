@@ -2,22 +2,22 @@
 	{
 		name: 'Github',
 		icon: 'github',
-		url: 'github.com/james-m-holland',
+		url: "https://www.github.com/kosmineOdiseja/",
 	},
 	{
 		name: 'Facebook',
 		icon: 'facebook',
-		url: 'facebook.com/james.m.holland',
+		url: "https://www.facebook.com/aliusbosas/",
 	},
 	{
 		name: 'Twitter',
 		icon: 'twitter',
-		url: 'twitter.com/jamesmholland',
+		url: "https://twitter.com/AliusBosas/",
 	},
 	{
 		name: 'LinkedIn',
 		icon: 'linkedin',
-		url: 'linkedin.com/in/james-m-holland',
+		url: "https://www.linkedin.com/in/alius-bosas-6781b5189/",
 	}
 ]
 export default social
