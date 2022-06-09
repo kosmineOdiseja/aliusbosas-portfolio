@@ -40,11 +40,12 @@ const Navbar = () => {
 // }
 
 <>
-<div >
+<div className='fixed top-0 right-0 flex w-screen '>
 	{ !isOpen ? (
 			// <button className='flex items-center justify-center w-12 h-12 rounded-full bg-white text-black hover:bg-gray-100 hover:text-black' onClick={handleClick}>
 			// <div className='fixed'>
-			<button onClick={() => setIsOpen(!isOpen)} className="top-10 right-10 ${isOpen ? absolute : relative}">
+			<button onClick={() => setIsOpen(!isOpen)} className="top-10 right-10 absolute">
+			{/* <button onClick={() => setIsOpen(!isOpen)} className="top-10 right-10 ${isOpen ? absolute : relative}"> */}
 			{/* // <button onClick={() => setIsOpen(!isOpen)} className="top-10 right-10 "> */}
 				<div className='w-7 h-1 m-1.5 bg-green'> </div>
 				<div className='w-6 h-1 m-1.5 bg-green'> </div>
@@ -52,7 +53,7 @@ const Navbar = () => {
 			</button>)
 			// </div>)
 			 : 
-			 (<ul className='h-full w-screen absolute'>
+			 (<ul className='w-full h-screen absolute flex items-center justify-center'>
 				<button className='text-3xl text-green top-10 right-10 absolute' onClick={()=> setIsOpen(!isOpen)}>X</button> 
 
 				<div className='flex flex-col justify-center items-center bg-nightsky h-full w-screen gap-10'>
