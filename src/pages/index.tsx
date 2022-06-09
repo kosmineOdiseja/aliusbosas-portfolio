@@ -18,8 +18,8 @@ const IndexPage = () => {
     <Hero /> 
     {/* <Footer />  */}
     <ParticlesComponent />
-    <ApieMane />
-    <Skills />
+    {/* <ApieMane /> */}
+    {/* <Skills /> */}
     <Footer />
     </>
   )

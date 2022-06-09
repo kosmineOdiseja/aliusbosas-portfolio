@@ -10,6 +10,7 @@ const config: GatsbyConfig = {
     "gatsby-plugin-image", 
     "gatsby-plugin-react-helmet", 
     "gatsby-plugin-sitemap", 
+    `gatsby-plugin-anchor-links`,
     {
     resolve: 'gatsby-plugin-manifest',
     options: {

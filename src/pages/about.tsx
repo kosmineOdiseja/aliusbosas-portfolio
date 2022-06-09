@@ -4,6 +4,7 @@ import ParticlesComponent from '../components/shared/ParticlesComponent'
 import Seo from '../components/Seo'
 import Skills from '../components/skills/Skills'
 import Navbar from '../components/shared/navbar/Navbar'
+import Footer from '../components/shared/footer/Footer'
 
 const about = () => {
   return (
@@ -13,6 +14,7 @@ const about = () => {
       <ApieMane />
       <Skills />
       <ParticlesComponent />
+      <Footer />
     </>
   )
 }
