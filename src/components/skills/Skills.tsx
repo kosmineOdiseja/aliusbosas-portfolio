@@ -44,6 +44,9 @@ function Skills() {
 							<div className='text-4xl text-light-text bg-green p-3 rounded-2xl'> 
 								<a href='https://sass-lang.com/'  target='_blank'>SASS</a>
 							</div>
+							<div className='text-4xl text-light-text bg-green p-3 rounded-2xl'> 
+								<a href='https://strapi.io/'  target='_blank'>Strapi ar kitas TVS</a>
+							</div>
 							{/* <div> Matrerial UI </div> */}
 						</div>
 					<h2 className='text-6xl bg-green p-5 rounded-2xl text-nightsky z-10000 '>Ką aš noriu išmokti Front-End'ui ir Back-End'ui?</h2>

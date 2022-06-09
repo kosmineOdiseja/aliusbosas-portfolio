@@ -5,6 +5,8 @@ import Footer from '../components/shared/footer/Footer'
 import ParticlesComponent from "../components/shared/ParticlesComponent"
 import Seo from '../components/Seo'
 import Navbar from "../components/shared/navbar/Navbar"
+import ApieMane from '../components/about/apieMane'
+import Skills from '../components/skills/Skills'
 
 const IndexPage = () => {
   return (
@@ -16,6 +18,8 @@ const IndexPage = () => {
     <Hero /> 
     {/* <Footer />  */}
     <ParticlesComponent />
+    <ApieMane />
+    <Skills />
     <Footer />
     </>
   )
