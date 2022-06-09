@@ -14,8 +14,9 @@ const IndexPage = () => {
     <Seo title="Home" /> 
     <Navbar />
     <Hero /> 
-    <Footer /> 
-    <ParticlesComponent />k
+    {/* <Footer />  */}
+    <ParticlesComponent />
+    <Footer />
     </>
   )
 }

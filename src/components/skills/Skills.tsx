@@ -4,7 +4,7 @@ function Skills() {
   return (
 	<div>
 		<div className='bg-nightsky' >
-			<section className='m-auto w-9/12 bg-darker-text'>
+			<section className='m-auto w-9/12 h-1/2 '>
 				<div className='flex flex-col gap-6 h-screen mx-auto p-6 items-center justify-center '>
 					<h2 className='text-6xl bg-green p-5 rounded-2xl text-nightsky '> Ką aš galiu naudoti projektuose? </h2>
 						<div className='flex flex-row gap-5 mx-auto p-6 items-start justify-center flex-wrap bg-light-text rounded-2xl'>
