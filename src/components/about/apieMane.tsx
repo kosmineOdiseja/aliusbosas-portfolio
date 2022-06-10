@@ -15,7 +15,7 @@ const apieMane = () => {
 	console.log(info, 'this is info')
 	
   return (
-		<div className='bg-nightsky' id='pradzia' >
+		<div className='bg-nightsky' id='apieMane' >
 	  	<section className=' m-auto w-9/12 h-1/2'>
 			  <div className='flex flex-col gap-3 h-screen mx-auto p-6 items-start justify-center'>
 

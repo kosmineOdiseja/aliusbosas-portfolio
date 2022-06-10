@@ -14,12 +14,11 @@ const IndexPage = () => {
     {/* <Layout /> */}
     {/* <SideBar /> */}
     <Seo title="Home" /> 
-    <Navbar />
+    {/* <Navbar /> */}
     <Hero /> 
-    {/* <Footer />  */}
     <ParticlesComponent />
-    {/* <ApieMane /> */}
-    {/* <Skills /> */}
+    <ApieMane />
+    <Skills />
     <Footer />
     </>
   )

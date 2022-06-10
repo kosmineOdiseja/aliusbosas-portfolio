@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
 	<>
-		<div className='fixed top-0 right-0 flex w-screen '>
+		<div className='fixed top-0 right-0 flex w-screen  '>
 			{ !isOpen ? (
 				<button onClick={() => setIsOpen(!isOpen)} className="top-10 right-10 absolute">
 					<div className='w-7 h-1 m-1.5 bg-green'> </div>
@@ -28,19 +28,19 @@ const Navbar = () => {
 					<div className='flex flex-col justify-center items-center bg-nightsky h-full w-screen gap-10'>
 						<li className=''>
 							<AnchorLink to='/#pradzia' >
-								<span className='text-green text-6xl '>Pradžia</span>
+								<span className='text-green text-6xl'>Pradžia</span>
 							</AnchorLink>
 						</li>
 						<li >
-							<AnchorLink to='/about/' >
+							<AnchorLink to='/#apieMane/' >
 								<span className='text-green text-6xl hover:text-7xl'>Apie mane</span>
 							</AnchorLink>
 						</li>
-						<li >
+						{/* <li >
 							<AnchorLink to='/projects/' >
 								<span className='text-green text-6xl hover:text-7xl'>Portfolio</span>
 							</AnchorLink>
-						</li>
+						</li> */}
 						<li >
 							<AnchorLink to='/contact/'>
 								<span className='text-green text-6xl hover:text-7xl'>Kontaktai</span>
