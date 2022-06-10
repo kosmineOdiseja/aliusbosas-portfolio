@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import personalInfo from '../../constants/apieMane.js'
 
 
-interface socialLinks {
+interface aboutInfo {
 		title: string,
 		description: string,
 }
@@ -11,19 +11,19 @@ interface socialLinks {
 const apieMane = () => {
 	console.log(personalInfo, 'this is pesonal info')
 
-	const [ info, setInfo ] = useState<socialLinks[]>(personalInfo)
+	const [ info, setInfo ] = useState<aboutInfo[]>(personalInfo)
 	console.log(info, 'this is info')
 	
   return (
-		<div className='bg-nightsky' id='apieMane' >
-	  	<section className=' m-auto w-9/12 h-1/2'>
-			  <div className='flex flex-col gap-3 h-screen mx-auto p-6 items-start justify-center'>
+		<div className='bg-nightsky' id='pradzia' >
+	  	<section className='tablet:w-9/12 m-auto py-5 '>
+			  <div className='flex flex-col gap-3 tablet:gap-4'>
 
-				{info.map((item: socialLinks, index: number) => {
+				{info.map((item: aboutInfo, index: number) => {
 					return (
 						<>
-							<h3 className='text-light-text font-normal text-3xl' key={index}>{item.title}</h3>
-							<code className='text-green text-xl'> {item.description} </code>
+							<h3 className='text-light-text text-xl px-4 tablet:text-4xl ' key={index}>{item.title}</h3>
+							<code className='text-green text-lg px-4 tablet:text-2xl'> {item.description} </code>
 						</>
 					)})
 				}
