@@ -6,7 +6,7 @@ const Hero = () => {
   return (
 
 	  <div className='bg-nightsky' >
-	  	<section className='h-[90vh] tablet:w-9/12 mx-auto flex'>
+	  	<section className='h-screen tablet:w-9/12 mx-auto flex'>
 			<div className='flex flex-col px-4 items-start justify-center gap-3 tablet:gap-4'>
 				<code className='text-green text-lg tablet:text-lg'> Sveiki, aš esu </code>
 				<h2 className='text-light-text font-semibold text-4xl tablet:text-5xl tablet:font-bold tablet:tracking-wide' > Alius Bosas. </h2>
