@@ -9,7 +9,7 @@ const config: GatsbyConfig = {
   plugins: [
     "gatsby-plugin-image", 
     "gatsby-plugin-react-helmet", 
-    "gatsby-plugin-sitemap", 
+    "gatsby-plugin-sitemap",
     {
     resolve: 'gatsby-plugin-manifest',
     options: {
@@ -28,10 +28,16 @@ const config: GatsbyConfig = {
         crossOrigin: `use-credentials`,
     }
   }, 
+  {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: -100
+      }
+    },
   "gatsby-plugin-mdx", 
   "gatsby-plugin-sharp", 
   "gatsby-transformer-sharp", {
-    resolve: 'gatsby-source-filesystem',
+   resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",
       "path": "./src/assets/images/"
