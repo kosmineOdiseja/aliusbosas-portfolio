@@ -1,7 +1,7 @@
 const apieMane = [
 	 {
 	 	"title": "apie mane",
-	 	"description": "Esu linksmas, draugiškas, atsakingas, mėgstu iššūkius. Gerai jaučiuosi darbuodamasis komandoje, taip pat nejaučiu diskomforto darbuojantis individualiai.",
+	 	"description": "Esu linksmas, draugiškas, atsakingas, kupinas idėjų, mėgstu iššūkius. Gerai jaučiuosi darbuodamasis komandoje, taip pat nejaučiu diskomforto darbuojantis individualiai.",
 	 },
 	{
 	 	"title": "apie discipliną",
@@ -17,7 +17,7 @@ const apieMane = [
 	 },
 	{
 	 	"title": "apie tikslus",
-	 	"description": "Šiuo metu mano vienas pagrindinių tikslų: dirbi IT sferoje - Full-Stack programuotoju, bet noriu pradėti nuo Front-End, nes manau estetiška svetainė turi pranašumą prieš svetainę turinčią didesnį funkcionalumą, bet prasčiau atrodančią. Full-stak'e galimybė sujungti tiek front-end grožį su back-end funkcionalumu atrodo labai įkvepiančiai.",
+	 	"description": "Šiuo metu mano vienas pagrindinių tikslų: dirbti IT sferoje - Full-Stack programuotoju, bet noriu pradėti nuo Front-End, nes manau estetiška svetainė turi pranašumą prieš svetainę turinčią didesnį funkcionalumą, bet prasčiau atrodančią. Full-stak'e galimybė sujungti tiek front-end grožį su back-end funkcionalumu atrodo labai įkvepiančiai.",
 	},
 	 {
 		"title": "apie darbo vietą",
