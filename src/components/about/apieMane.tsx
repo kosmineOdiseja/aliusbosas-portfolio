@@ -2,17 +2,14 @@ import { title } from 'process'
 import React, { useState } from 'react'
 import personalInfo from '../../constants/apieMane.js'
 
-
 interface aboutInfo {
 		title: string,
 		description: string,
 }
 
 const apieMane = () => {
-	console.log(personalInfo, 'this is pesonal info')
 
 	const [ info, setInfo ] = useState<aboutInfo[]>(personalInfo)
-	console.log(info, 'this is info')
 	
   return (
 	// <section className='bg-nightsky relative '> this prevents from particles to be displayed on the section background
