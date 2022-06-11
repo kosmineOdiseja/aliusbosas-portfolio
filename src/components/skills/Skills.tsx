@@ -19,7 +19,8 @@ function Skills() {
 	const [ learnMore, setLearnMore ] = useState(skillIwant)
 
   return (
-		<section className='bg-nightsky relative'>
+		// <section className='bg-nightsky relative'></section> this prevents from particles to be displayed on the section background
+		<section className='bg-nightsky'>
 				<div className='h-full phone:h-screen tablet:w-9/12 mx-auto p-6 items-center justify-center flex flex-col gap-5 '>
 					<h2 className='bg-green text-nightsky mx-auto text-4xl rounded-lg font-semibold py-5 px-4 tablet:text-5xl text-center '>Ką aš galiu naudoti projektuose?</h2>
 						<div className='bg-light-text rounded-2xl mx-auto p-5 flex flex-row gap-5 flex-wrap'>

@@ -13,8 +13,9 @@ const Footer = () => {
 	// const [ socialIcons, setSocialIcons ] = useState<socialLinks[]>(SocialIcons)
 
   return (
-	<footer className=' bg-nightsky relative'>
-		<div className='font-semibold text-3xl mx-auto p-4 h-1/3 tablet:w-9/12 flex flex-col phone:flex-row  gap-4 justify-center items-center flex-wrap'>
+	// <footer className=' bg-nightsky relative'> this prevents from particles to be displayed on the section background
+	<footer className=' bg-nightsky'> 
+		<div className='font-semibold text-3xl m-auto p-4 h-min tablet:w-9/12 flex flex-col phone:flex-row  gap-4 justify-center items-center flex-wrap '>
 		{/* <footer className='flex flex-col lg:flex-row gap-4 align-center justify-center bg-nightsky text-4xl text-light-text py-4 flex-wrap: wrap relative '> */}
 			<h3 className='text-green text-center' > Pasikalbekime: </h3>
 			{/* <h3 className='text-green' > Pasikalbekime: </h3> */}
