@@ -15,7 +15,7 @@ module.exports = {
       "darker-text": "#8892b0"
     },
     screens: {
-      'phone':  '640px', 
+      'phone':  '560px', 
       'tablet': '768px',
       'laptop': '1024px',
       'desktop': '1280px'
