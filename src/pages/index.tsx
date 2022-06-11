@@ -15,10 +15,10 @@ const IndexPage = () => {
     {/* <SideBar /> */}
     <Seo title="Home" /> 
     {/* <Navbar /> */}
-    {/* <Hero />  */}
+    <Hero /> 
     <ParticlesComponent />
-    {/* <ApieMane /> */}
-    {/* <Skills /> */}
+    <ApieMane />
+    <Skills />
     <Footer />
     </>
   )

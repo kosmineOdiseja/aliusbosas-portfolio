@@ -13,7 +13,7 @@ const Footer = () => {
 	// const [ socialIcons, setSocialIcons ] = useState<socialLinks[]>(SocialIcons)
 
   return (
-	<footer className=' bg-nightsky '>
+	<footer className=' bg-nightsky relative'>
 		<div className='font-semibold text-3xl mx-auto p-4 h-1/3 tablet:w-9/12 flex flex-col phone:flex-row  gap-4 justify-center items-center flex-wrap'>
 		{/* <footer className='flex flex-col lg:flex-row gap-4 align-center justify-center bg-nightsky text-4xl text-light-text py-4 flex-wrap: wrap relative '> */}
 			<h3 className='text-green text-center' > Pasikalbekime: </h3>
