@@ -17,7 +17,7 @@ const apieMane = [
 	 },
 	{
 	 	"title": "apie tikslus",
-	 	"description": "Šiuo metu mano vienas pagrindinių tikslų: dirbi IT sferoje - Full-Stack programuotoju, bet noriu pradėti nuo Front-End, nes manau estetiška svetainė turi pranašumą, prieš svetainę turinčią didesnį funkcionalumą, bet prasčiau atrodančią. Full-stak'e galimybė sujungti tiek front-end grožį su back-end funkcionalumu atrodo labai įkvepiančiai.",
+	 	"description": "Šiuo metu mano vienas pagrindinių tikslų: dirbi IT sferoje - Full-Stack programuotoju, bet noriu pradėti nuo Front-End, nes manau estetiška svetainė turi pranašumą prieš svetainę turinčią didesnį funkcionalumą, bet prasčiau atrodančią. Full-stak'e galimybė sujungti tiek front-end grožį su back-end funkcionalumu atrodo labai įkvepiančiai.",
 	},
 	 {
 		"title": "apie darbo vietą",
