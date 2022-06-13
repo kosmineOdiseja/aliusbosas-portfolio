@@ -5,6 +5,7 @@ interface socialLinks {
 		name: string,
 		url: string, 
 		icon: any,
+		
 }
 
 const Footer = () => {
