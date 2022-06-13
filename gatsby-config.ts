@@ -28,12 +28,12 @@ const config: GatsbyConfig = {
         crossOrigin: `use-credentials`,
     }
   }, 
-  {
-      resolve: "gatsby-plugin-anchor-links",
-      options: {
-        offset: -100
-      }
-    },
+  // {
+  //     resolve: "gatsby-plugin-anchor-links",
+  //     options: {
+  //       offset: -100
+  //     }
+  //   },
   "gatsby-plugin-mdx", 
   "gatsby-plugin-sharp", 
   "gatsby-transformer-sharp", {
