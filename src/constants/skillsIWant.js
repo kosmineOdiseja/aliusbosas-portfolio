@@ -22,6 +22,14 @@ const skillsIWant = [
 	{
 		name: 'Django',
 		url: 'https://www.djangoproject.com/',
+	}, 
+	{
+		name: 'Docker',
+		url: 'https://www.docker.com/',
+	},
+	{
+		name: 'AWS', 
+		url: 'https://aws.amazon.com/',
 	}
 ]
 export default skillsIWant

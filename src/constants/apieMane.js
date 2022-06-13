@@ -1,11 +1,11 @@
 const apieMane = [
 	 {
 	 	"title": "apie mane",
-	 	"description": "Esu linksmas, draugiškas, atsakingas, kupinas idėjų, mėgstu iššūkius. Gerai jaučiuosi darbuodamasis komandoje, taip pat nejaučiu diskomforto darbuojantis individualiai.",
+	 	"description": "Esu linksmas, draugiškas, atsakingas, kupinas idėjų, mėgstu iššūkius, ambincingas, ir šiek tiek maksimalistas :). Gerai jaučiuosi darbuodamasis komandoje, taip pat nejaučiu diskomforto darbuojantis individualiai.",
 	 },
 	{
 	 	"title": "apie discipliną",
-	 	"description": "Labai mėgstu kantriai ir nuosekliai siekti savo tikslų.",
+	 	"description": "Mano nuomone, tai vienas iš svarbiausių elementų norint pasiekti užsibrėžtų tikslų.",
 	},
 	{
 	 	"title": " apie technologijų pasirinkimus",
@@ -17,11 +17,11 @@ const apieMane = [
 	 },
 	{
 	 	"title": "apie tikslus",
-	 	"description": "Šiuo metu mano vienas pagrindinių tikslų: dirbti IT sferoje - Full-Stack programuotoju, bet noriu pradėti nuo Front-End, nes manau estetiška svetainė turi pranašumą prieš svetainę turinčią didesnį funkcionalumą, bet prasčiau atrodančią. Full-stak'e galimybė sujungti tiek front-end grožį su back-end funkcionalumu atrodo labai įkvepiančiai.",
+	 	"description": "Šiuo metu mano vienas pagrindinių tikslų: dirbti IT sferoje - Full-Stack programuotoju, bet noriu pradėti nuo Front-End, nes estetiška svetainė turi pranašumą prieš svetainę turinčią didesnį funkcionalumą, bet prasčiau atrodančią. Full-stak'e galimybė sujungti tiek front-end grožį su back-end funkcionalumu atrodo labai įkvepiančiai.",
 	},
 	 {
 		"title": "apie darbo vietą",
-	 	"description": "Norėčiau darbuotis įmonėje, kurioje galėčiau kurti, mokytis, tobulėti ir augti ne tik kaip asmenybė, bet augti kartu su komanda.",
+	 	"description": "Norėčiau darbuotis įmonėje, kurioje galėčiau kurti, mokytis, tobulėti ir augti ne tik kaip asmenybė, bet augti kartu su komanda. Labai domina įmonės, kuriuos kuria programinę įranga, siūlo sprendimus verslui, kuria e. komercijos sprendimus.",
 	},
 	{
 		 "title": "apie pomėgius",

@@ -62,6 +62,10 @@ const skillsIKnow = [
 	{
 		name: 'Strapi ar kitas CMS',
 		url: 'https://strapi.io/'
+	}, 
+	{
+		name: "Wordpress",
+		url: "https://wordpress.org/",
 	}
 ] 
 
