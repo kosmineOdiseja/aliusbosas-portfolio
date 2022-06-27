@@ -66,7 +66,16 @@ const skillsIKnow = [
 	{
 		name: "Wordpress",
 		url: "https://wordpress.org/",
-	}
+	},
+	{
+		name: "elementor",
+		url: "https://www.presentconnection.eu/positions/internship-full-stack-developer/",
+	},
+	{
+		name: "woocommerce",
+		url: "https://woocommerce.com/",
+	},
+	
 ] 
 
 export default skillsIKnow;
