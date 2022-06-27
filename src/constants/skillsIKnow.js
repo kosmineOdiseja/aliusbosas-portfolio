@@ -68,11 +68,11 @@ const skillsIKnow = [
 		url: "https://wordpress.org/",
 	},
 	{
-		name: "elementor",
-		url: "https://www.presentconnection.eu/positions/internship-full-stack-developer/",
+		name: "Elementor",
+		url: "https://elementor.com/",
 	},
 	{
-		name: "woocommerce",
+		name: "Woocommerce",
 		url: "https://woocommerce.com/",
 	},
 	
